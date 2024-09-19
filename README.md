@@ -2,11 +2,12 @@ Snake Game on Sense HAT
 This code implements a simple Snake game using the Sense HAT library on a Raspberry Pi. The snake moves around the 8x8 LED matrix, grows by eating food, and ends the game if it collides with itself.
 
 Requirements
-Sense HAT installed and connected to your Raspberry Pi.
+Sense HAT is installed and connected to your Raspberry Pi.
 Python 3.x installed with the sense_hat library. 
 
 Gameplay
-The snake is controlled by the joystick on the Sense HAT. The snake moves continuously in the last input direction.
+The joystick on the Sense HAT controls the snake, which moves continuously in the last input direction.
+
 Objective: Eat the red food to grow. Avoid colliding with your own body.
 Game Over: If the snake collides with itself or goes out of bounds.
 
